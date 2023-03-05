@@ -1,5 +1,6 @@
 # Pizza-App
-Customise the pizza using different bases and toppings.
+Customise the pizza using different bases and toppings.<br>
+-> To check the live demo of the site https://pizza-customise-app.netlify.app/.
 
 <p><strong>Instructions:</strong><br>
 				* Drag and choose a pizza base and up to three toppings to create your own custom pizza!.<br>
@@ -16,3 +17,4 @@ Customise the pizza using different bases and toppings.
 =>Feel free to contribute or give any advices as this is project was aimed at functionality over design selection.<br>
                                         <strong>@@@ THANK YOU @@@</strong>
 </p>
+
