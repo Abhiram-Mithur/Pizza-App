@@ -1,36 +1,52 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Pizza Design App</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-	
+
+
 
 	<div class="container">
 		<div id="pizza-circle"></div>
+		<div id="instructions">
+			<p><strong>Instructions:</strong><br>
+				* Drag and choose a pizza base and up to three toppings to create your own custom pizza!.<br>
+				* Click on submit when you are done customising your pizza.<br>
+				* <strong>Note:</strong> You cannot undo the changes of toppings once selected.<br>
+				* You can replace the toppings. </p>
+		</div>
+
 		<div class="options">
 			<div class="pizza-bases">
 				<h3>Select Pizza Base:</h3>
-				<div class="base" id="base1"data-name="Thin Crust +"><img src="pizza base 1.png" alt="Pizza Base 1" draggable="true" ></div>
-				<div class="base" id="base2"data-name="Thick Crust +"><img src="pizza base 2.jpg" alt="Pizza Base 2" draggable="true" ></div>
+				<div class="base" id="base1" data-name="Thin Crust +"><img src="pizza base 1.png" alt="Pizza Base 1"
+						draggable="true"></div>
+				<div class="base" id="base2" data-name="Thick Crust +"><img src="pizza base 2.jpg" alt="Pizza Base 2"
+						draggable="true"></div>
 			</div>
 
-            <div class="toppings">
+			<div class="toppings">
 				<h3>Select Toppings:</h3>
-				<div class="topping" id="topping1"data-name="mushroom"><img src="mushroom.jpg" alt="Topping 1"></div>
-				<div class="topping" id="topping2"data-name="onion"><img src="onion.jpg" alt="Topping 2"></div>
-				<div class="topping" id="topping3"data-name="tomatoes"><img src="tomatoes.png" alt="Topping 3"></div>
+				<div class="topping" id="topping1" data-name="Mushrooms"><img src="mushroom.jpg" alt="Topping 1"></div>
+				<div class="topping" id="topping2" data-name="Onions"><img src="onion.jpg" alt="Topping 2"></div>
+				<div class="topping" id="topping3" data-name="Tomatoes"><img src="tomatoes.png" alt="Topping 3"></div>
 			</div>
-			
-			<button id="submit-btn">Submit</button>
-			<div id="result"></div>
+
+			<button id="submit-btn" class="custom-button">Submit</button>
+
+			<div id="result" class="custom-result"></div>
+
 
 		</div>
 	</div>
-  
+
 
 
 	<script src="script.js"></script>
 </body>
+
 </html>
