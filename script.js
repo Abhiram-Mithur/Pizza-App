@@ -74,5 +74,5 @@ submitBtn.addEventListener('click', () => {
   }
   //Display the result of the choosen pizza
 
-  result.innerHTML = "you have choosen:" + '<br>' + elementsList + "Pizza";
+  result.innerHTML = "You have choosen:" + '<br>' + elementsList + "Pizza";
 });
